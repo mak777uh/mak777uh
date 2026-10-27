@@ -3,6 +3,9 @@
 Independent researcher. I check claims and publish what the check found. Sometimes the answer is
 "not confirmed", and I publish that too. No institution, no degrees, no token.
 
+The same method turned into a product: [FlowGuard](https://github.com/mak777uh/flowguard-spec) — it
+proves a control boundary around one value flow, and publishes exactly what the boundary does not cover.
+
 ## What I actually do
 
 1. Take a claim that matters (a payout, a contract invariant, a statement in a paper).
@@ -39,6 +42,20 @@ escrow contract and payment layer for paid orders, and incentive design for veri
 the repository grows from a partially implemented core plus a specification into a working network with
 automatic payouts.
 
+## Applied product: FlowGuard
+
+A service that does not claim a system is secure. For one declared value flow — money, personal data,
+access to a store — it establishes that nothing moves past the single control point, and issues a
+statement a third party can verify offline without trusting the issuer. The guarantee covers a declared
+closure and names what falls outside it. Where the closure cannot be enumerated, the honest verdict is
+"inconclusive", not a badge.
+[flowguard-spec](https://github.com/mak777uh/flowguard-spec)
+
+Status: specification and five rounds of external review, no code yet. Every claim carries an evidence
+type, and three words are reserved for machine-checked statements; a claim may never be worded more
+strongly than its evidence allows. Deliberately out of scope: bridges, oracles, MEV, and any promise of
+finding all vulnerabilities.
+
 ## Start here
 
 | | |
@@ -46,6 +63,7 @@ automatic payouts.
 | **All verification work, one folder per direction** | [mak777uh/cases](https://github.com/mak777uh/cases) |
 | **Science bench (morphogenesis)** | [mak777uh/-](https://github.com/mak777uh/-) |
 | **VecDHT (p2p semantic search, Rust)** | [mak777uh/VecDHT](https://github.com/mak777uh/VecDHT) |
+| **FlowGuard (proved control boundary, spec)** | [mak777uh/flowguard-spec](https://github.com/mak777uh/flowguard-spec) |
 | **Newest case: three payouts checked on chain** | [cases/201](https://github.com/mak777uh/cases/tree/main/cases/201-flapjax-payout-verification) |
 | **Code: open pull request with tests** | [specter-diy #447](https://github.com/cryptoadvance/specter-diy/pull/447) |
 | **Preprint (DOI)** | [10.5281/zenodo.23648667](https://doi.org/10.5281/zenodo.23648667) |
@@ -73,4 +91,8 @@ no fund, no advice.
 На русском, коротко: проверяю чужие утверждения (выплаты, контракты, формулировки в статьях), пишу что
 получилось и как это перепроверить. Работа лежит в [mak777uh/cases](https://github.com/mak777uh/cases),
 по одной папке на направление. Отдельно веду научную работу по морфогенезу в нейроклеточных автоматах: стенд, протоколы и отчёты
-лежат в [mak777uh/-](https://github.com/mak777uh/-), рукопись — отдельный файл с DOI. Где не смог разобраться, так и написано.
+лежат в [mak777uh/-](https://github.com/mak777uh/-), рукопись — отдельный файл с DOI. Отдельно строю
+[FlowGuard](https://github.com/mak777uh/flowguard-spec): сервис, который доказывает не «система
+безопасна», а что мимо единственной точки контроля нельзя пройти, и честно перечисляет, что осталось
+вне границы. Пока это спецификация и пять кругов внешнего ревью, кода нет. Где не смог разобраться,
+так и написано.
