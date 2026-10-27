@@ -3,8 +3,11 @@
 Independent researcher. I check claims and publish what the check found. Sometimes the answer is
 "not confirmed", and I publish that too. No institution, no degrees, no token.
 
-The same method turned into a product: [FlowGuard](https://github.com/mak777uh/flowguard-spec) — it
-proves a control boundary around one value flow, and publishes exactly what the boundary does not cover.
+**Two projects, one method.** [VecDHT](https://github.com/mak777uh/VecDHT) is a network;
+[FlowGuard](https://github.com/mak777uh/flowguard-spec) is a control boundary. Both run the same lab
+protocol — a hypothesis, a threshold fixed before the run, one decision per result — and since October 2026
+they exchange dated notes against a shared method kit: formats and guards in common, code and threat models
+private to each.
 
 ## What I actually do
 
@@ -35,6 +38,11 @@ data across shards and VecDHT routing to find it again **without a central catal
 the wire protocol and admission policies are modular and replaceable.
 [vec-dht repo](https://github.com/mak777uh/VecDHT)
 
+Its lab is the older instrument: 114 experiment cards with pre-registered thresholds, a source index where
+every entry carries a pin to a commit and a statement of what it gave, and a status document written to be
+falsified. That machinery is where the shared kit comes from — FlowGuard took the card format, the metrics
+rule and the status discipline from here.
+
 Deliberately out of scope: no blockchain, no escrow, no proof of useful work, no incentive economics. All of
 that is meant to be built on top by anyone who wants to. What is planned instead: a live test network,
 routing, local search and admission taken to production level, a verifier image with verifiable receipts, an
@@ -51,10 +59,15 @@ closure and names what falls outside it. Where the closure cannot be enumerated,
 "inconclusive", not a badge.
 [flowguard-spec](https://github.com/mak777uh/flowguard-spec)
 
-Status: specification and five rounds of external review, no code yet. Every claim carries an evidence
+Status: specification and six rounds of external review, no code yet. Every claim carries an evidence
 type, and three words are reserved for machine-checked statements; a claim may never be worded more
 strongly than its evidence allows. Deliberately out of scope: bridges, oracles, MEV, and any promise of
 finding all vulnerabilities.
+
+The two repositories read each other through `interop/` — dated notes pinned to commits, not a shared
+dependency. Neither can be built from the other, and neither is asked to change for the other. Where the
+first produces evidence (experiments, metrics, status), the second disciplines the sentence about it
+(evidence types, eliminations, guards); a checker reports which half is which.
 
 ## Start here
 
@@ -94,5 +107,12 @@ no fund, no advice.
 лежат в [mak777uh/-](https://github.com/mak777uh/-), рукопись — отдельный файл с DOI. Отдельно строю
 [FlowGuard](https://github.com/mak777uh/flowguard-spec): сервис, который доказывает не «система
 безопасна», а что мимо единственной точки контроля нельзя пройти, и честно перечисляет, что осталось
-вне границы. Пока это спецификация и пять кругов внешнего ревью, кода нет. Где не смог разобраться,
-так и написано.
+вне границы. Пока это спецификация и шесть кругов внешнего ревью, кода нет.
+
+Два проекта — [VecDHT](https://github.com/mak777uh/VecDHT) и
+[FlowGuard](https://github.com/mak777uh/flowguard-spec) — с октября 2026 переписываются заметками в папке
+`interop/`: с пином на коммит, без общей зависимости и без правок друг другу. Общий у них только метод:
+формат карточки эксперимента, правило «у числа есть команда», типизированные утверждения и стражи. Код,
+модели угроз и инварианты у каждого свои — так и задумано.
+
+Где не смог разобраться, так и написано.
