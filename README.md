@@ -77,6 +77,7 @@ first produces evidence (experiments, metrics, status), the second disciplines t
 | **Science bench (morphogenesis)** | [mak777uh/-](https://github.com/mak777uh/-) |
 | **VecDHT (p2p semantic search, Rust)** | [mak777uh/VecDHT](https://github.com/mak777uh/VecDHT) |
 | **FlowGuard (proved control boundary, spec)** | [mak777uh/flowguard-spec](https://github.com/mak777uh/flowguard-spec) |
+| **LexSpec (legal statements a program can check, v0.1)** | [mak777uh/lexspec](https://github.com/mak777uh/lexspec) |
 | **Newest case: three payouts checked on chain** | [cases/201](https://github.com/mak777uh/cases/tree/main/cases/201-flapjax-payout-verification) |
 | **Code: open pull request with tests** | [specter-diy #447](https://github.com/cryptoadvance/specter-diy/pull/447) |
 | **Preprint (DOI)** | [10.5281/zenodo.23648667](https://doi.org/10.5281/zenodo.23648667) |
