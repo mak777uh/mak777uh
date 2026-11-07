@@ -21,15 +21,4 @@ claim carries an evidence type, every gate can fail, and every gate is tested wi
 neural cellular automata. Code, protocols, run manifests and reports; every headline count is generated
 by a script, and each number carries the measurement id and the command that produced it.
 
-## How to read this profile
 
-Start with [herness](https://github.com/mak777uh/herness). Its `README.md` states what works, what is
-measured, and what is explicitly not claimed. That structure — claim, evidence type, boundary — is the
-same one used across the lab.
-
-## What is not here
-
-No claim of scientific novelty. No peer-reviewed publication record presented as endorsement. No
-financial product, no fund, no advice. No claims about life, consciousness or intelligence.
-
-Where we could not work something out, it is written down as unresolved rather than smoothed over.
