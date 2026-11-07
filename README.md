@@ -2,13 +2,7 @@
 
 **A research lab's history.**
 
-This is the record of a lab: what we set out to check, what the check found, and what it did not
-prove. It does not claim novelty. It claims a method — write in strict scientific language wherever
-possible, re-check conclusions carefully, and do not hide errors. When a result turns out wrong, the
-correction stays next to the original, not in its place.
-
-The work is done by autonomous agents under human direction. Every artifact carries the command that
-produced it and the boundary it does not cover.
+https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Vladimirov%2C%20Ilya%22&l=list&p=1&s=10&sort=bestmatch
 
 ## What we build
 
