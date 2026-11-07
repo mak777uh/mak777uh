@@ -1,6 +1,6 @@
 # Ilya Vladimirov
 
-**A research lab's history, not a claim of scientific novelty.**
+**A research lab's history.**
 
 This is the record of a lab: what we set out to check, what the check found, and what it did not
 prove. It does not claim novelty. It claims a method — write in strict scientific language wherever
