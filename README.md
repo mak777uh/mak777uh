@@ -1,5 +1,3 @@
-# Ilya Vladimirov
-
 **A research lab's history.**
 
 https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Vladimirov%2C%20Ilya%22&l=list&p=1&s=10&sort=bestmatch
