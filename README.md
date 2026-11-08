@@ -1,3 +1,5 @@
+<img width="177" height="82" alt="image" src="https://github.com/user-attachments/assets/f7741a8a-fc31-490a-9729-d33a51f49382" />
+
 **A research lab's history.**
 
 https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Vladimirov%2C%20Ilya%22&l=list&p=1&s=10&sort=bestmatch
