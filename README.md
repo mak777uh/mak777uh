@@ -19,3 +19,4 @@ claim carries an evidence type, every gate can fail, and every gate is tested wi
 neural cellular automata. Code, protocols, run manifests and reports; every headline count is generated
 by a script, and each number carries the measurement id and the command that produced it.
 
+<img width="579" height="405" alt="image" src="https://github.com/user-attachments/assets/69cdf7c7-c76c-4d48-9315-d87137486bf1" />
